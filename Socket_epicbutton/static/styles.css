@@ -47,22 +47,22 @@ form {
   border: 2px solid #ffffff;
 }
 #bold {
-    background-color: rgb(248, 6, 196);
-    color: #ffffff;
-    width: 300px;
-    height: 80px;
-    border-radius: 10px;
-    border: 2px solid #ffffff;
-  }
+  background-color: rgb(248, 6, 196);
+  color: #ffffff;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
 
-  #cold {
-    background-color: rgb(75, 75, 75);
-    color: #ffffff;
-    width: 300px;
-    height: 80px;
-    border-radius: 10px;
-    border: 2px solid #ffffff;
-  }
+#cold {
+  background-color: rgb(75, 75, 75);
+  color: #ffffff;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
 #reset {
   background-color: rgb(167, 30, 25);
   color: #ffffff;
