@@ -13,11 +13,11 @@ app.use(session({secret: 'shhhhThisisAsecret!'}));
 
 
 mongoose.connect('mongodb://localhost/quotes');
-const QuoteSchema = new mongoose.Schema({
-    name: String,
-    quote: String,
-    author: String
-});
+var QuoteSchema = new mongoose.Schema({
+	name: {type: String},
+	quote: {type: String},
+author: {type: String}
+}, {timestamps: true});
 mongoose.model('Quote', QuoteSchema); 
 var Quote = mongoose.model('Quote') 
 mongoose.Promise = global.Promise;

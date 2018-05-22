@@ -17,7 +17,7 @@
             <% for(let x in quotes) { %>
                 <h3>"<%= quotes[x].quote %>"</h3>
                 <p> - <%= quotes[x].author %> </p>
-                <p>Posted By: <%= quotes[x].name %></p>
+                <p>Posted By: <%= quotes[x].name %> at <%= quotes[x].createdAt %></p>
                 <hr />
             <% } %>
         </div>
