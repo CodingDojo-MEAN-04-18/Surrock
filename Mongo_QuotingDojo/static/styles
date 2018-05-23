@@ -1,7 +1,0 @@
-			.container { margin: 40px auto; }
-			#form_div { width: 600px; margin: 0px auto !important; border: 3px solid blue; border-radius: 30px; padding: 20px;}
-			#add_quote { background-color: green; color: white; border-radius: 5px; padding: 20px 10px; display: inline; }
-			#show_quotes { background-color: blue; color: white; border-radius: 5px; padding: 20px 10px; margin-left: 40px; display: inline; }
-			.form-row { margin: 20px 10px !important;  }
-			input {display: inline-block !important;}
-			form {display: inline-block;}
